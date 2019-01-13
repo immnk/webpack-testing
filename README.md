@@ -25,7 +25,7 @@ Follow the following steps:
 
 ### Tasks
 ---
-All tasks and issues are listed as items in [Tasks & issues in repository Issues tab](https://github.com/immnk/logo-generator-app/issues)
+All tasks and issues are listed as items in [Tasks & issues in repository Issues tab](https://github.com/immnk/webpack-testing/issues)
 
 - [x] Write a README file.
 - [x] Write JS modules and compile with webpack

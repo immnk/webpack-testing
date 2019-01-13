@@ -4,9 +4,7 @@
   "description": "test webpack functionality",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "start": "webpack",
-    "build": "webpack"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",

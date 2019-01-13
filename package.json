@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "webpack"
+    "start": "webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
     "url": "https://github.com/immnk/webpack-testing/issues"
   },
   "homepage": "https://github.com/immnk/webpack-testing#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
   "devDependencies": {
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"

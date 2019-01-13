@@ -35,4 +35,6 @@ All tasks and issues are listed as items in [Tasks & issues in repository Issues
 - [ ] Add CI/CD pipelines
 - [ ] Make automatic deployments on release branch
 
-Code licensed: Not yet
+### License
+
+[MIT License](https://github.com/immnk/webpack-testing/blob/master/LICENSE)

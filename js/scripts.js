@@ -1,0 +1,2 @@
+require("./jqueryModule");
+require("./loadashModule");

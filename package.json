@@ -1,0 +1,29 @@
+{
+  "name": "webpack-testing",
+  "version": "1.0.0",
+  "description": "test webpack functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immnk/webpack-testing.git"
+  },
+  "keywords": [
+    "webpack",
+    "module"
+  ],
+  "author": "Mani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/immnk/webpack-testing/issues"
+  },
+  "homepage": "https://github.com/immnk/webpack-testing#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Webpack Testing</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-image: -webkit-linear-gradient(bottom, #cfd9df 0%, #e2ebf0 100%);
+      background-image: -o-linear-gradient(bottom, #cfd9df 0%, #e2ebf0 100%);
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+      position: relative;
+    }
+
+    #title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="title">Welcome to webpack testing</h1>
+
+    <script src="js/scripts.min.js"></script>
+  </div>
+</body>
+
+</html>

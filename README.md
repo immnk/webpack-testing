@@ -1,6 +1,7 @@
 Webpack Testing
 ---
 
+[![Build Status](https://travis-ci.com/immnk/webpack-testing.svg?branch=master)](https://travis-ci.com/immnk/webpack-testing)
 Webpack Testing is a repository created with the intention of using webpack to compile JS modules.
 
 ### Table of contents

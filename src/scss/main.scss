@@ -1,0 +1,31 @@
+@import 'variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(bottom, $background-start 0%, $background-end 100%);
+  background-image: -o-linear-gradient(bottom, $background-start 0%, $background-end 100%);
+  background-image: linear-gradient(to top, $background-start 0%, $background-end 100%);
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px;
+  border: 1px dotted $gray;
+}
+
+#title {
+  font-size: 2em;
+  margin-bottom: 12px;
+}

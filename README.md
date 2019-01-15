@@ -1,17 +1,18 @@
 Webpack Testing
 ---
 
-[![Build Status](https://travis-ci.com/immnk/webpack-testing.svg?branch=master)](https://travis-ci.com/immnk/webpack-testing)
-Webpack Testing is a repository created with the intention of using webpack to compile JS modules.
+[![Build Status](https://travis-ci.com/immnk/webpack-testing.svg?branch=master)](https://travis-ci.com/immnk/webpack-testing) [![Dependencies](https://david-dm.org/immnk/webpack-testing.svg)](https://david-dm.org/) [![Tests](https://img.shields.io/badge/test-pending-yellow.svg)](https://github.com/immnk/webpack-testing/issues/5)
+
+Webpack Testing is a repository created with the intention of using `webpack` to compile JS modules. This project create `dist` folder during build and deploy its content to `gh-pages` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.com/immnk/webpack-testing)
 
 ### Table of contents
 ---
 
-1. Set up
-2. Test
-3. Tasks
-4. Useful websites
-5. LICENSE
+1. [Set up](#set-up)
+2. [Test](#test)
+3. [Tasks](#tasks)
+4. [Useful websites](#useful-websites)
+5. [LICENSE](#license)
 
 ### Set up
 ---
@@ -19,7 +20,7 @@ Follow the following steps:
 
 1. `git clone https://github.com/immnk/logo-generator-app.git`
 2. `cd webpack_testing && npm install`
-3. For testing dev `npm start`. To test prod `NODE_ENV=production npm start`
+3. For testing in dev `npm start`. To test prod `NODE_ENV=production npm start`
 4. Open `dist/index.html` in browser.
 
 ### Test
@@ -33,10 +34,10 @@ All tasks and issues are listed as items in [Tasks & issues in repository Issues
 
 - [x] Write a README file.
 - [x] Write JS modules and compile with webpack
-- [ ] Make dist folder with html and js files compiled
+- [x] Make dist folder with html and js files compiled
 - [ ] Create SCSS and compile them with webpack
 - [ ] Create API test method and set up
-- [ ] Add CI/CD pipelines
+- [x] Add CI/CD pipelines
 - [ ] Make automatic deployments on release branch
 
 ### Useful websites

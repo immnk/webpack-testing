@@ -1,7 +1,7 @@
 Webpack Testing
 ---
 
-[![Build Status](https://travis-ci.com/immnk/webpack-testing.svg?branch=master)](https://travis-ci.com/immnk/webpack-testing) [![Dependencies](https://david-dm.org/immnk/webpack-testing.svg)](https://david-dm.org/) [![Tests](https://img.shields.io/badge/test-pending-yellow.svg)](https://github.com/immnk/webpack-testing/issues/5)
+[![Build Status](https://travis-ci.com/immnk/webpack-testing.svg?branch=master)](https://travis-ci.com/immnk/webpack-testing) [![Dependencies](https://david-dm.org/immnk/webpack-testing.svg)](https://david-dm.org/) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/webpack-testing/badge)](https://www.codefactor.io/repository/github/immnk/webpack-testing) [![Tests](https://img.shields.io/badge/test-pending-yellow.svg)](https://github.com/immnk/webpack-testing/issues/5)
 
 Webpack Testing is a repository created with the intention of using `webpack` to compile JS modules. This project create `dist` folder during build and deploy its content to `gh-pages` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.com/immnk/webpack-testing)
 
@@ -35,7 +35,7 @@ All tasks and issues are listed as items in [Tasks & issues in repository Issues
 - [x] Write a README file.
 - [x] Write JS modules and compile with webpack
 - [x] Make dist folder with html and js files compiled
-- [ ] Create SCSS and compile them with webpack
+- [x] Create SCSS and compile them with webpack
 - [ ] Create API test method and set up
 - [x] Add CI/CD pipelines
 - [ ] Make automatic deployments on release branch

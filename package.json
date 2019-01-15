@@ -1,6 +1,6 @@
 {
   "name": "webpack-testing",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "test webpack functionality",
   "main": "index.js",
   "scripts": {

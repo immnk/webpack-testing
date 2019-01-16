@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "stable"
 after_success:
-  npm start
+  npm run build:prod
 deploy:
   provider: pages
   skip-cleanup: true

@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "stable"
+install: false
 after_success:
   npm run build:prod
 deploy:

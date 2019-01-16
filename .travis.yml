@@ -3,9 +3,12 @@ node_js:
   - "stable"
 install:
   - npm install -g mocha
+  - npm install -g codecov
+  - npm install -g nyc coveralls
   - npm install
 after_success:
-  npm run build:prod
+  - npm run build:prod
+  - npm run coverage
 deploy:
   provider: pages
   skip-cleanup: true

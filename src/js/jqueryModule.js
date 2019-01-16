@@ -1,1 +1,5 @@
-console.log("Loaded jQuery module");
+const jqueryModule = (function() {
+  console.log("Loaded jQuery module");
+})();
+
+module.exports = jqueryModule;

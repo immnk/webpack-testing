@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - "stable"
-install: false
+install:
+  - npm install -g mocha
+  - npm install
 after_success:
   npm run build:prod
 deploy:

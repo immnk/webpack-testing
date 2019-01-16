@@ -9,9 +9,6 @@ install:
 after_success:
   - npm run build:prod
   - npm run coverage
-script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-  - codecov
 deploy:
   provider: pages
   skip-cleanup: true

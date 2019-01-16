@@ -3,9 +3,13 @@ node_js:
   - "stable"
 install:
   - npm install -g mocha
+  - npm install -g codecov
   - npm install
 after_success:
   npm run build:prod
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov
 deploy:
   provider: pages
   skip-cleanup: true

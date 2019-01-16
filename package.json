@@ -8,7 +8,8 @@
     "serve": "lite-server -c=bs-config.json",
     "build:prod": "webpack",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
-    "test": "mocha"
+    "report-coverage": "nyc report --reporter=text-lcov mocha > coverage/coverage.lcov && codecov",
+    "test": "npm run report-coverage"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.4.0",
+    "nyc": "^13.1.0"
   }
 }

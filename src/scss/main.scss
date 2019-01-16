@@ -23,6 +23,10 @@
   transform: translate(-50%, -50%);
   padding: 12px;
   border: 1px dotted $gray;
+
+  p {
+    margin-bottom: 12px;
+  }
 }
 
 #title {

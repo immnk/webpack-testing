@@ -1,8 +1,11 @@
 language: node_js
 node_js:
   - "stable"
+install:
+  - npm install -g mocha
+  - npm install
 after_success:
-  npm start
+  npm run build:prod
 deploy:
   provider: pages
   skip-cleanup: true

@@ -1,6 +1,5 @@
 const debug = process.env.NODE_ENV !== "production";
 console.log("Webpack is running in " + process.env.NODE_ENV + " mode");
-const webpack = require('webpack');
 var path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");

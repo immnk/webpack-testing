@@ -13,10 +13,6 @@ module.exports = {
         "no-undef" : 2,
         "no-console": ["error", { allow: ["warn", "log"] }],
         "indent": ["error",2],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
         "quotes": [
             "error",
             "double"

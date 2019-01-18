@@ -1,37 +1,29 @@
 (function() {
-  const jqueryModule = require("./jqueryModule");
-  const lodashModule = require("./loadashModule");
+  const domModule = require("./domModule");
+  const usersModule = require("./usersModule");
 
-  const womenCollection = lodashModule.women;
-  const menCollection = lodashModule.men;
-  const wrapperNode = document.getElementsByClassName("wrapper")[0];
+  const womenCollection = usersModule.women;
+  const menCollection = usersModule.men;
 
-  if (jqueryModule) {
-    addMessageToDom("p", `Message from Module1: ${jqueryModule.message}`);
+  if (domModule) {
+    domModule.addMessageToDom("p", `Message from Module1: ${domModule.message}`);
   }
 
-  if(lodashModule) {
-    addMessageToDom("p", `Message from Module2: ${lodashModule.message}`);
+  if (usersModule) {
+    domModule.addMessageToDom("p", `Message from Module2: ${usersModule.message}`);
   }
 
   if (womenCollection.length > 0) {
-    addMessageToDom("p", `There are ${womenCollection.length} females in your data object`);
-    const templateFn = lodashModule.getTemplateFn();
+    domModule.addMessageToDom("p", `There are ${womenCollection.length} females in your data object`);
+    const templateFn = usersModule.getTemplateFn();
     var cardCollection = "";
     womenCollection.forEach(function(women) {
       women.avatar += "?" + women.id;
       let templateHTML = templateFn(women);
       cardCollection += templateHTML;
     });
-    addMessageToDom("ul", cardCollection, "users");
+    domModule.addMessageToDom("ul", cardCollection, "users");
   }
 
-  function addMessageToDom(elementName, message, className) {
-    var node = document.createElement(elementName);
-    node.innerHTML = message;
-    if(className) {
-      node.className = className;
-    }
-    wrapperNode.appendChild(node);
-  }
+
 })();

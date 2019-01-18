@@ -17,16 +17,21 @@
   if (womenCollection.length > 0) {
     addMessageToDom("p", `There are ${womenCollection.length} females in your data object`);
     const templateFn = lodashModule.getTemplateFn();
+    var cardCollection = "";
     womenCollection.forEach(function(women) {
       women.avatar += "?" + women.id;
       let templateHTML = templateFn(women);
-      wrapperNode.innerHTML += templateHTML;
+      cardCollection += templateHTML;
     });
+    addMessageToDom("ul", cardCollection, "users");
   }
 
-  function addMessageToDom(elementName, message) {
-    var p = document.createElement(elementName);
-    p.innerHTML = message;
-    wrapperNode.appendChild(p);
+  function addMessageToDom(elementName, message, className) {
+    var node = document.createElement(elementName);
+    node.innerHTML = message;
+    if(className) {
+      node.className = className;
+    }
+    wrapperNode.appendChild(node);
   }
 })();

@@ -5,7 +5,7 @@ const users = [{
   "email": "kellerker0@nationalgeographic.com",
   "gender": "Male",
   "ip_address": "68.207.239.110",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 2,
   "first_name": "Jorrie",
@@ -13,7 +13,7 @@ const users = [{
   "email": "jbarens1@mozilla.org",
   "gender": "Female",
   "ip_address": "173.155.94.11",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.ibb.co/9qQHWRf/50095662-815903242094549-8016830683970129951-n.jpg"
 }, {
   "id": 3,
   "first_name": "Berne",
@@ -21,7 +21,7 @@ const users = [{
   "email": "bgleadhall2@toplist.cz",
   "gender": "Male",
   "ip_address": "103.21.101.33",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 4,
   "first_name": "Cher",
@@ -29,7 +29,7 @@ const users = [{
   "email": "cfrome3@chron.com",
   "gender": "Female",
   "ip_address": "52.111.196.61",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.ibb.co/19vQ4TV/49907135-1987396121554636-776316482577177873-n.jpg"
 }, {
   "id": 5,
   "first_name": "Lindi",
@@ -37,7 +37,7 @@ const users = [{
   "email": "lpenniell4@de.vu",
   "gender": "Female",
   "ip_address": "230.65.115.11",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://www.worldoffemale.com/wp-content/uploads/2015/09/crop-top-outfits-for-girls-2.png"
 }, {
   "id": 6,
   "first_name": "Ddene",
@@ -45,7 +45,7 @@ const users = [{
   "email": "dbutchers5@shutterfly.com",
   "gender": "Female",
   "ip_address": "54.50.222.224",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.imgur.com/rZtmA9y.jpg"
 }, {
   "id": 7,
   "first_name": "Marcos",
@@ -53,7 +53,7 @@ const users = [{
   "email": "mbarlee6@intel.com",
   "gender": "Male",
   "ip_address": "159.140.38.184",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 8,
   "first_name": "Salome",
@@ -61,7 +61,7 @@ const users = [{
   "email": "sglanvill7@vinaora.com",
   "gender": "Female",
   "ip_address": "214.7.172.220",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.imgur.com/w1pKmEb.jpg"
 }, {
   "id": 9,
   "first_name": "Moyra",
@@ -69,7 +69,7 @@ const users = [{
   "email": "mladon8@weebly.com",
   "gender": "Female",
   "ip_address": "141.13.107.3",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://cmzone-vzbqbxhynotw9ion96xv.netdna-ssl.com/wp-content/uploads/2017/04/Vienna-Kendall.jpg"
 }, {
   "id": 10,
   "first_name": "Gayla",
@@ -77,7 +77,7 @@ const users = [{
   "email": "gpariso9@google.it",
   "gender": "Female",
   "ip_address": "5.216.154.92",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://cmzone-vzbqbxhynotw9ion96xv.netdna-ssl.com/wp-content/uploads/2017/04/Vienna-Kendall.jpg"
 }, {
   "id": 11,
   "first_name": "Randall",
@@ -85,7 +85,7 @@ const users = [{
   "email": "rpennya@mozilla.org",
   "gender": "Male",
   "ip_address": "255.33.247.100",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 12,
   "first_name": "Jule",
@@ -93,7 +93,7 @@ const users = [{
   "email": "jholdronb@fema.gov",
   "gender": "Male",
   "ip_address": "222.109.247.113",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 13,
   "first_name": "Fredi",
@@ -101,7 +101,7 @@ const users = [{
   "email": "fgrimbaldestonc@howstuffworks.com",
   "gender": "Female",
   "ip_address": "244.204.160.194",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.ibb.co/zfFcF83/47691052-2475491882492605-2996245520143351808-n.jpg"
 }, {
   "id": 14,
   "first_name": "Stanford",
@@ -109,7 +109,7 @@ const users = [{
   "email": "sbirtsd@netvibes.com",
   "gender": "Male",
   "ip_address": "164.80.246.141",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 15,
   "first_name": "Travus",
@@ -117,7 +117,7 @@ const users = [{
   "email": "tdowgille@weibo.com",
   "gender": "Male",
   "ip_address": "155.242.238.46",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 16,
   "first_name": "Niki",
@@ -125,7 +125,7 @@ const users = [{
   "email": "nwaistallf@unesco.org",
   "gender": "Male",
   "ip_address": "75.1.254.225",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 17,
   "first_name": "Wilden",
@@ -133,7 +133,7 @@ const users = [{
   "email": "wespositag@mashable.com",
   "gender": "Male",
   "ip_address": "49.11.181.179",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 18,
   "first_name": "Ilsa",
@@ -141,7 +141,7 @@ const users = [{
   "email": "itoomeyh@kickstarter.com",
   "gender": "Female",
   "ip_address": "163.53.120.157",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.ibb.co/T0Y5pG4/47694514-2099467113448536-8044850430692449114-n.jpg"
 }, {
   "id": 19,
   "first_name": "Otis",
@@ -149,7 +149,7 @@ const users = [{
   "email": "opaxefordi@amazon.com",
   "gender": "Male",
   "ip_address": "244.245.61.5",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://loremflickr.com/640/480/girl"
 }, {
   "id": 20,
   "first_name": "Pansie",
@@ -157,7 +157,7 @@ const users = [{
   "email": "pgosalvezj@usgs.gov",
   "gender": "Female",
   "ip_address": "118.237.67.22",
-  "avatar": "https://placeimg.com/640/480/people"
+  "avatar": "https://i.ibb.co/37rdr3H/49463691-2262639814023329-3068028954246120399-n.jpg"
 }];
 
 module.exports = users;

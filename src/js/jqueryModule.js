@@ -4,7 +4,7 @@ const jqueryModule = (function() {
   
   return {
     message: message
-  }
+  };
 })();
 
 module.exports = jqueryModule;

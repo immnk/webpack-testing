@@ -15,6 +15,7 @@
 
   if (womenCollection.length > 0) {
     domModule.addMessageToDom("p", `There are ${womenCollection.length} females in your data object`);
+    domModule.addMessageToDom("p", `There are ${menCollection.length} males in your data object`);
     const templateFn = usersModule.getTemplateFn();
     var cardCollection = "";
     womenCollection.forEach(function(women) {

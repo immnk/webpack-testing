@@ -9,7 +9,7 @@ const domModule = (function() {
       node.className = className;
     }
     wrapperNode.appendChild(node);
-  }
+  };
 
   return {
     message: message,

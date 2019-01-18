@@ -25,7 +25,7 @@ const loadashModule = (function() {
     </div>
     `;
     return _.template(userTemplate);
-  }
+  };
 
   return {
     men: menCollection,

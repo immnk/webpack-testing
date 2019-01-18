@@ -1,7 +1,6 @@
 const loadashModule = (function() {
   const _ = require("lodash");
   const users = require("../data/users.data");
-  const message = "Loaded lodashModule";
 
   const menCollection = _.filter(users, {
     "gender": "Male"

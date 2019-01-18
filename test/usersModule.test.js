@@ -1,22 +1,22 @@
 const chai = require("chai");
 const assert = chai.assert;
 const expect = chai.expect;
-const lodashModule = require("../src/js/loadashModule");
+const usersModule = require("../src/js/usersModule");
 
-describe('lodashModule', function() {
+describe('usersModule', function() {
   describe('Module#getMessage', function() {
     it('should return a string', function() {
-      expect(lodashModule.message).to.be.a('string');
-      expect(lodashModule.message).to.not.empty;
+      expect(usersModule.message).to.be.a('string');
+      expect(usersModule.message).to.not.empty;
     });
   });
   describe('Module#femaleCount', function() {
     it('should return femaleCount to be 10', function() {
-      assert.equal(lodashModule.femaleCount, 10);
+      assert.equal(usersModule.femaleCount, 10);
     });
 
     it('should expect an object as module value', function() {
-      expect(lodashModule).to.be.a('object');
+      expect(usersModule).to.be.a('object');
     });
   });
 });

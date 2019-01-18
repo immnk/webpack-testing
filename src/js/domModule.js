@@ -1,5 +1,4 @@
 const domModule = (function() {
-  const message = "Loaded jQuery module";
   const wrapperNode = document.getElementsByClassName("wrapper")[0];
 
   const addMessageToDom = function(elementName, message, className) {

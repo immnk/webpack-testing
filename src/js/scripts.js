@@ -6,20 +6,20 @@
   const wrapperNode = document.getElementsByClassName("wrapper")[0];
 
   if (jqueryModule) {
-    var p = document.createElement('p');
-    p.innerHTML = `Message from Module1: ${jqueryModule.message}`;
-    wrapperNode.appendChild(p);
+    addMessageToDom("p", `Message from Module1: ${jqueryModule.message}`);
   }
 
   if(loadashModule) {
-    var p = document.createElement('p');
-    p.innerHTML = `Message from Module2: ${loadashModule.message}`;
-    wrapperNode.appendChild(p);
+    addMessageToDom("p", `Message from Module2: ${loadashModule.message}`);
   }
 
   if (femaleCount > 0) {
-    var p = document.createElement('p');
-    p.innerHTML = `There are ${femaleCount} females in your data object`;
+    addMessageToDom("p", `There are ${femaleCount} females in your data object`);
+  }
+
+  function addMessageToDom(elementName, message) {
+    var p = document.createElement(elementName);
+    p.innerHTML = message;
     wrapperNode.appendChild(p);
   }
 })();

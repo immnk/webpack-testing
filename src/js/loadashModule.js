@@ -1,5 +1,5 @@
 const loadashModule = (function() {
-  const _ = require('lodash/core');
+  const _ = require("lodash/core");
   const users = require("../data/users.data");
   const message = "Loaded lodashModule";
 
@@ -14,7 +14,7 @@ const loadashModule = (function() {
   return {
     femaleCount: femaleCount,
     message: message
-  }
+  };
 })();
 
 module.exports = loadashModule;

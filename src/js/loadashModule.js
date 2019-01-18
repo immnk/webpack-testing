@@ -3,16 +3,17 @@ const loadashModule = (function() {
   const users = require("../data/users.data");
   const message = "Loaded lodashModule";
 
-  console.log(message);
-  
-  const femaleCount = _.filter(users, {
-    "gender": "Female"
-  }).length;
+  const menCollection = _.filter(users, {
+    "gender": "Male"
+  });
 
-  console.log(femaleCount);
+  const womenCollection = _.filter(users, {
+    "gender": "Female"
+  });
 
   return {
-    femaleCount: femaleCount,
+    men: menCollection,
+    women: womenCollection,
     message: message
   }
 })();

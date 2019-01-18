@@ -12,7 +12,6 @@ const domModule = (function() {
   };
 
   return {
-    message: message,
     addMessageToDom: addMessageToDom
   };
 })();

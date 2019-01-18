@@ -14,9 +14,9 @@ const loadashModule = (function() {
   const getTemplateFn = function() {
     const userTemplate = `
     <div class="card">
-      <img src="<%= avatar %>" alt="Profile Image" class="profile-img profile-img__dummy">
+      <div class="profile-img profile-img__dummy" style="background-image: url('<%= avatar %>');"></div>
       <a href="#">
-        <img src="<%= avatar %>" alt="Profile Image" class="profile-img profile-img__expand">
+        <div class="profile-img profile-img__expand" style="background-image: url('<%= avatar %>');"></div>
       </a>
       <div class="card-body">
         <h4 class="title"><%= first_name %> <%= last_name %></h4>
@@ -30,7 +30,6 @@ const loadashModule = (function() {
   return {
     men: menCollection,
     women: womenCollection,
-    message: message,
     getTemplateFn: getTemplateFn
   };
 })();

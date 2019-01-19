@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
-        "node" : true,
+        "node": true,
         "es6": true
     },
     "extends": "eslint:recommended",
@@ -9,10 +9,12 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "no-unused-vars" : 2,
-        "no-undef" : 2,
-        "no-console": ["error", { allow: ["warn", "log"] }],
-        "indent": ["error",2],
+        "no-unused-vars": 2,
+        "no-undef": 2,
+        "no-console": ["error", {
+            allow: ["warn", "log"]
+        }],
+        "indent": ["error", 2],
         "quotes": [
             "error",
             "double"
@@ -21,5 +23,9 @@ module.exports = {
             "error",
             "always"
         ]
+    },
+    "globals": {
+        "document": true,
+        "window": true
     }
 };

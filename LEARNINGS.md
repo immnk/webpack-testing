@@ -66,3 +66,29 @@ module.exports = {
 
 1. Added mocha, istanbul and chai to create unit test cases and then use a online tool like coveralls to generate a comprehensive code coverage. this will give us a nice little badge also.
 2. Added GitHub issue templates
+
+## Issues and how did i resolve them
+
+> `npm test` worked but coverage report was empty. So this made the coverage report not to be sent by nyc to coveralls.
+
+Solution:
+This happened because my unit test was loading sync file in before all and the unit test ran but mocha never exited after running test cases. So the solution was
+
+`package.json`
+
+``` json
+{
+  "test": "npm run lint && nyc --reporter=html --reporter=text mocha --exit",
+}
+```
+
+`domModule.test.js`
+
+``` javascript
+before(function () {
+  this.timeout(0); // This is important so that before doesnt timeout
+  ...
+  let htmlString = fs.readFileSync("./src/index.html").toString();
+  ...
+});
+```

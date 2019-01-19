@@ -7,8 +7,8 @@ install:
   - npm install -g nyc coveralls
   - npm install
 after_success:
-  - npm run build:prod
   - npm run coverage
+  - npm run build:prod
 deploy:
   provider: pages
   skip-cleanup: true

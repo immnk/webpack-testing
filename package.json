@@ -9,7 +9,7 @@
     "serve": "lite-server -c=bs-config.json",
     "build:prod": "webpack",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
-    "test": "npm run lint && nyc --reporter=html --reporter=text mocha -r jsdom-global/register",
+    "test": "npm run lint && nyc --reporter=html --reporter=text mocha",
     "coverage": "NODE_ENV=test nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {

@@ -14,6 +14,4 @@
     });
     domModule.addMessageToDom("ul", cardCollection, "users");
   }
-
-
 })();

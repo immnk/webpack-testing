@@ -11,19 +11,8 @@ const loadashModule = (function() {
   });
 
   const getTemplateFn = function() {
-    const userTemplate = `
-    <div class="card">
-      <div class="profile-img profile-img__dummy" style="background-image: url('<%= avatar %>');"></div>
-      <a href="#">
-        <div class="profile-img profile-img__expand" style="background-image: url('<%= avatar %>');"></div>
-      </a>
-      <div class="card-body">
-        <h4 class="title"><%= first_name %> <%= last_name %></h4>
-        <p class="email"><%= email %></p>
-      </div>
-    </div>
-    `;
-    return _.template(userTemplate);
+    let cardTemplate = require("../templates/card.html");
+    return _.template(cardTemplate);
   };
 
   return {

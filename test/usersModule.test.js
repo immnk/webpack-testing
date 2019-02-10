@@ -18,7 +18,8 @@ describe('usersModule', function() {
   });
   describe('Module#getTemplateFn', function() {
     it('should return a string', function() {
-      const generatedTemplate = usersModule.getTemplateFn()(dummyObject);
+      const generatorFn = usersModule.getTemplateFn();
+      const generatedTemplate = generatorFn(dummyObject);
       expect(generatedTemplate).to.be.a("string");
       expect(generatedTemplate).to.not.empty;
     });

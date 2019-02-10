@@ -12,6 +12,8 @@ const loadashModule = (function() {
 
   const getTemplateFn = function() {
     let cardTemplate = require("../templates/card.html");
+    console.log(_.template(cardTemplate));
+    console.log(typeof(_.template(cardTemplate)));
     return _.template(cardTemplate);
   };
 

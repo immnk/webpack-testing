@@ -40,7 +40,6 @@ describe('usersModule', function() {
     it('should return a string', function() {
       const generatorFn = usersModule.getTemplateFn();
       const generatedTemplate = generatorFn(dummyObject);
-      console.log(generatedTemplate);
       expect(generatedTemplate).to.be.a("string");
       expect(generatedTemplate).to.not.empty;
     });

@@ -1,143 +1,163 @@
 const users = [{
   "id": 1,
-  "first_name": "Konstantin",
-  "last_name": "Ellerker",
-  "email": "kellerker0@nationalgeographic.com",
-  "gender": "Male",
-  "ip_address": "68.207.239.110"
+  "first_name": "Aradhana",
+  "last_name": "Mani",
+  "email": "AradhanaM@nationalgeographic.com",
+  "gender": "Female",
+  "ip_address": "68.207.239.110",
+  "avatar": "https://i.imgur.com/Re7kdwm.jpg"
 }, {
   "id": 2,
   "first_name": "Jorrie",
   "last_name": "Barens",
   "email": "jbarens1@mozilla.org",
   "gender": "Female",
-  "ip_address": "173.155.94.11"
+  "ip_address": "173.155.94.11",
+  "avatar": "https://i.ibb.co/9qQHWRf/50095662-815903242094549-8016830683970129951-n.jpg"
 }, {
   "id": 3,
   "first_name": "Berne",
   "last_name": "Gleadhall",
   "email": "bgleadhall2@toplist.cz",
   "gender": "Male",
-  "ip_address": "103.21.101.33"
+  "ip_address": "103.21.101.33",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 4,
   "first_name": "Cher",
   "last_name": "Frome",
   "email": "cfrome3@chron.com",
   "gender": "Female",
-  "ip_address": "52.111.196.61"
+  "ip_address": "52.111.196.61",
+  "avatar": "https://i.ibb.co/19vQ4TV/49907135-1987396121554636-776316482577177873-n.jpg"
 }, {
   "id": 5,
   "first_name": "Lindi",
   "last_name": "Penniell",
   "email": "lpenniell4@de.vu",
   "gender": "Female",
-  "ip_address": "230.65.115.11"
+  "ip_address": "230.65.115.11",
+  "avatar": "https://www.worldoffemale.com/wp-content/uploads/2015/09/crop-top-outfits-for-girls-2.png"
 }, {
   "id": 6,
   "first_name": "Ddene",
   "last_name": "Butchers",
   "email": "dbutchers5@shutterfly.com",
   "gender": "Female",
-  "ip_address": "54.50.222.224"
+  "ip_address": "54.50.222.224",
+  "avatar": "https://i.pinimg.com/564x/32/34/68/32346884d08012b774a60eb1308e2847.jpg"
 }, {
   "id": 7,
   "first_name": "Marcos",
   "last_name": "Barlee",
   "email": "mbarlee6@intel.com",
   "gender": "Male",
-  "ip_address": "159.140.38.184"
+  "ip_address": "159.140.38.184",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 8,
   "first_name": "Salome",
   "last_name": "Glanvill",
   "email": "sglanvill7@vinaora.com",
   "gender": "Female",
-  "ip_address": "214.7.172.220"
+  "ip_address": "214.7.172.220",
+  "avatar": "https://i.imgur.com/w1pKmEb.jpg"
 }, {
   "id": 9,
   "first_name": "Moyra",
   "last_name": "Ladon",
   "email": "mladon8@weebly.com",
   "gender": "Female",
-  "ip_address": "141.13.107.3"
+  "ip_address": "141.13.107.3",
+  "avatar": "https://cmzone-vzbqbxhynotw9ion96xv.netdna-ssl.com/wp-content/uploads/2017/04/Vienna-Kendall.jpg"
 }, {
   "id": 10,
   "first_name": "Gayla",
   "last_name": "Pariso",
   "email": "gpariso9@google.it",
   "gender": "Female",
-  "ip_address": "5.216.154.92"
+  "ip_address": "5.216.154.92",
+  "avatar": "https://i.pinimg.com/564x/48/16/4d/48164d171b4bb2e9fac70c787e71ac1c.jpg"
 }, {
   "id": 11,
   "first_name": "Randall",
   "last_name": "Penny",
   "email": "rpennya@mozilla.org",
   "gender": "Male",
-  "ip_address": "255.33.247.100"
+  "ip_address": "255.33.247.100",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 12,
   "first_name": "Jule",
   "last_name": "Holdron",
   "email": "jholdronb@fema.gov",
   "gender": "Male",
-  "ip_address": "222.109.247.113"
+  "ip_address": "222.109.247.113",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 13,
   "first_name": "Fredi",
   "last_name": "Grimbaldeston",
   "email": "fgrimbaldestonc@howstuffworks.com",
   "gender": "Female",
-  "ip_address": "244.204.160.194"
+  "ip_address": "244.204.160.194",
+  "avatar": "https://i.ibb.co/zfFcF83/47691052-2475491882492605-2996245520143351808-n.jpg"
 }, {
   "id": 14,
   "first_name": "Stanford",
   "last_name": "Birts",
   "email": "sbirtsd@netvibes.com",
   "gender": "Male",
-  "ip_address": "164.80.246.141"
+  "ip_address": "164.80.246.141",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 15,
   "first_name": "Travus",
   "last_name": "Dowgill",
   "email": "tdowgille@weibo.com",
   "gender": "Male",
-  "ip_address": "155.242.238.46"
+  "ip_address": "155.242.238.46",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 16,
   "first_name": "Niki",
   "last_name": "Waistall",
   "email": "nwaistallf@unesco.org",
   "gender": "Male",
-  "ip_address": "75.1.254.225"
+  "ip_address": "75.1.254.225",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 17,
   "first_name": "Wilden",
   "last_name": "Esposita",
   "email": "wespositag@mashable.com",
   "gender": "Male",
-  "ip_address": "49.11.181.179"
+  "ip_address": "49.11.181.179",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 18,
   "first_name": "Ilsa",
   "last_name": "Toomey",
   "email": "itoomeyh@kickstarter.com",
   "gender": "Female",
-  "ip_address": "163.53.120.157"
+  "ip_address": "163.53.120.157",
+  "avatar": "https://i.ibb.co/T0Y5pG4/47694514-2099467113448536-8044850430692449114-n.jpg"
 }, {
   "id": 19,
   "first_name": "Otis",
   "last_name": "Paxeford",
   "email": "opaxefordi@amazon.com",
   "gender": "Male",
-  "ip_address": "244.245.61.5"
+  "ip_address": "244.245.61.5",
+  "avatar": "https://loremflickr.com/640/480/man"
 }, {
   "id": 20,
-  "first_name": "Pansie",
+  "first_name": "Ruddik",
   "last_name": "Gosalvez",
   "email": "pgosalvezj@usgs.gov",
-  "gender": "Female",
-  "ip_address": "118.237.67.22"
+  "gender": "Male",
+  "ip_address": "118.237.67.22",
+  "avatar": "https://loremflickr.com/640/480/man"
 }];
 
 module.exports = users;

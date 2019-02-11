@@ -1,25 +1,17 @@
 (function() {
-  const jqueryModule = require("./jqueryModule");
-  const loadashModule = require("./loadashModule");
+  const domModule = require("./domModule");
+  const usersModule = require("./usersModule");
 
-  const femaleCount = loadashModule.femaleCount;
-  const wrapperNode = document.getElementsByClassName("wrapper")[0];
+  const womenCollection = usersModule.women;
 
-  if (jqueryModule) {
-    addMessageToDom("p", `Message from Module1: ${jqueryModule.message}`);
-  }
-
-  if(loadashModule) {
-    addMessageToDom("p", `Message from Module2: ${loadashModule.message}`);
-  }
-
-  if (femaleCount > 0) {
-    addMessageToDom("p", `There are ${femaleCount} females in your data object`);
-  }
-
-  function addMessageToDom(elementName, message) {
-    var p = document.createElement(elementName);
-    p.innerHTML = message;
-    wrapperNode.appendChild(p);
+  if (womenCollection.length > 0) {
+    const templateFn = usersModule.getTemplateFn();
+    var cardCollection = "";
+    womenCollection.forEach(function(women) {
+      women.avatar += "?" + women.id;
+      let templateHTML = templateFn(women);
+      cardCollection += templateHTML;
+    });
+    domModule.addMessageToDom("ul", cardCollection, "users");
   }
 })();

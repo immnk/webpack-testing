@@ -2,13 +2,11 @@ language: node_js
 node_js:
   - "stable"
 install:
-  - npm install -g mocha
   - npm install -g codecov
-  - npm install -g nyc coveralls
-  - npm install
+  - npm install --only=dev
 after_success:
-  - npm run build:prod
   - npm run coverage
+  - npm run build:prod
 deploy:
   provider: pages
   skip-cleanup: true

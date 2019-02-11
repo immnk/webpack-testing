@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/immnk/webpack-testing.svg?branch=master)](https://travis-ci.org/immnk/webpack-testing) [![Dependencies](https://david-dm.org/immnk/webpack-testing.svg)](https://david-dm.org/) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/webpack-testing/badge)](https://www.codefactor.io/repository/github/immnk/webpack-testing) [![Coverage Status](https://coveralls.io/repos/github/immnk/webpack-testing/badge.svg?branch=master)](https://coveralls.io/github/immnk/webpack-testing?branch=master) [![Tests](https://img.shields.io/badge/tests-covered-brightgreen.svg)](https://github.com/immnk/webpack-testing/issues/5)
 
-> Webpack Testing is a repository created with the intention of using `webpack` to compile JS modules. This project create `dist` folder during build and deploy its content to `gh-pages` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.com/immnk/webpack-testing)
+> Webpack Testing is a repository created with the intention of using `webpack` to compile JS modules. This project create `dist` folder during build and deploy its content to `gh-pages` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.org/immnk/webpack-testing)
 
 ## Table of contents
 

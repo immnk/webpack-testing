@@ -19,12 +19,18 @@
         transition: 0.2s all ease-out;
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px; }
+      @media (min-width: 320px) and (max-width: 480px) {
+        .users .card:hover {
+          transform: scale(1.02, 1.02); } }
     .users .card .profile-img {
       width: 100%;
       height: 300px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
+      @media (min-width: 320px) and (max-width: 480px) {
+        .users .card .profile-img {
+          height: 230px; } }
     .users .card .profile-img__dummy {
       visibility: hidden; }
     .users .card .profile-img__expand {
@@ -44,6 +50,10 @@
         font-size: 10px;
         font-weight: bold;
         color: #c1c1c1; }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .users .card {
+        width: 180px;
+        margin: 0 12px 12px 0; } }
 
 * {
   margin: 0;
@@ -64,6 +74,10 @@
   margin: 120px auto;
   padding: 12px;
   text-align: center; }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .wrapper {
+      margin: 12px auto;
+      padding: 0; } }
 
 #title {
   font-size: 2em;

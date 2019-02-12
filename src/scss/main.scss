@@ -23,6 +23,10 @@
   padding: 12px;
   text-align: center;
 
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin: 12px auto;
+    padding: 0;
+  }
 }
 
 #title {

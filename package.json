@@ -26,9 +26,7 @@
     "url": "https://github.com/immnk/webpack-testing/issues"
   },
   "homepage": "https://github.com/immnk/webpack-testing#readme",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
     "css-loader": "^2.1.0",

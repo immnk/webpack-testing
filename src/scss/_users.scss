@@ -13,7 +13,7 @@
     border-radius: 12px;
 
     &:hover {
-      box-shadow: 0 30px 18px -8px rgba(0, 0, 0,0.1);
+      box-shadow: 0 30px 18px -8px rgba(0, 0, 0, 0.1);
       transform: scale(1.10, 1.10);
 
       .profile-img__expand {
@@ -23,6 +23,10 @@
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
       }
+
+      @media (min-width: 320px) and (max-width: 480px) {
+        transform: scale(1.02, 1.02);
+      }
     }
 
     .profile-img {
@@ -31,6 +35,10 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+
+      @media (min-width: 320px) and (max-width: 480px) {
+        height: 230px;
+      }
     }
 
     .profile-img__dummy {
@@ -60,6 +68,11 @@
         font-weight: bold;
         color: $gray;
       }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 180px;
+      margin: 0 12px 12px 0;
     }
   }
 }

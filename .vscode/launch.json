@@ -20,6 +20,21 @@
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
+            "type": "node",
+            "request": "launch",
+            "name": "Mocha Tests - DomModule",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}\\test\\domModule.test.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": "Launch index.html",
             "type": "chrome",
             "request": "launch",

@@ -20,11 +20,22 @@ describe('domModule', function () {
             expect(this.domModule).to.be.a("object");
         });
 
+        it("test if empty dom is created with empty class", function () {
+            let testMessage = "";
+            this.domModule.addMessageToDom("p", testMessage, "");
+            let testElement = document.getElementsByTagName("p")[0].innerHTML;
+            let className = document.getElementsByTagName("p")[0].classList[0];
+            assert.equal(testElement, testMessage);
+            assert.equal(className, undefined);
+        });
+
         it("tests if dom can be created", function () {
             let testMessage = "create test p element";
             this.domModule.addMessageToDom("p", testMessage, "testClass");
             let testElement = document.getElementsByClassName("testClass")[0].innerHTML;
+            let className = document.getElementsByClassName("testClass")[0].classList[0];
             assert.equal(testElement, testMessage);
+            assert.equal(className, "testClass");
         });
     });
 });

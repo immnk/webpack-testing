@@ -14,8 +14,8 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
+  min-height: 100vh;
+  overflow-y: auto;
   background-image: -webkit-linear-gradient(bottom, $background-start 0%, $background-end 100%);
   background-image: -o-linear-gradient(bottom, $background-start 0%, $background-end 100%);
   background-image: linear-gradient(to top, $background-start 0%, $background-end 100%);

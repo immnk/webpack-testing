@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: debug ? "development" : "production",
@@ -35,6 +36,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html"
     }),
+    new CopyWebpackPlugin([
+      {from: "*.{png,jpg,jpeg,gif,ico,webp,svg}", to: "/dist/", context: "/src/"},
+      {from: "images/*.{png,jpg,jpeg,gif,ico,webp,svg}", to: "/dist/images/", context: "/src/"}
+    ], {})
   ],
   optimization: {
     minimizer: [

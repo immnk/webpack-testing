@@ -29,7 +29,7 @@ const users = [{
   "email": "cfrome3@chron.com",
   "gender": "Female",
   "ip_address": "52.111.196.61",
-  "avatar": "https://i.ibb.co/19vQ4TV/49907135-1987396121554636-776316482577177873-n.jpg"
+  "avatar": "https://i.imgur.com/w1pKmEb.jpg"
 }, {
   "id": 5,
   "first_name": "Lindi",
@@ -61,7 +61,7 @@ const users = [{
   "email": "sglanvill7@vinaora.com",
   "gender": "Female",
   "ip_address": "214.7.172.220",
-  "avatar": "https://i.imgur.com/w1pKmEb.jpg"
+  "avatar": "https://i.ibb.co/19vQ4TV/49907135-1987396121554636-776316482577177873-n.jpg"
 }, {
   "id": 9,
   "first_name": "Moyra",

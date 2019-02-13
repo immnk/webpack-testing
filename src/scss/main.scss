@@ -8,6 +8,10 @@
   font-family: $font-stack;
 }
 
+:root {
+  font-size: 62.5%; // 1rem = 10px
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -19,17 +23,29 @@
 }
 
 .wrapper {
-  margin: 120px auto;
-  padding: 12px;
+  margin: 10rem auto;
+  padding: 1.2rem;
   text-align: center;
 
-  @media (min-width: 320px) and (max-width: 480px) {
-    margin: 12px auto;
+  @media only screen and (max-width: 768px) {
+    margin: 2.4rem auto;
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 468px) {
+    margin: 1.2rem auto;
     padding: 0;
   }
 }
 
 #title {
-  font-size: 2em;
-  margin-bottom: 24px;
+  font-size: 4rem;
+  margin-bottom: 2.4rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (max-width: 468px) {
+    font-size: 2.5rem;
+  }
 }

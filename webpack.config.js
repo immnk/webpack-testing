@@ -37,9 +37,9 @@ module.exports = {
       template: "src/index.html"
     }),
     new CopyWebpackPlugin([
-      {from: "*.{png,jpg,jpeg,gif,ico,webp,svg}", to: "/dist/", context: "/src/"},
-      {from: "images/*.{png,jpg,jpeg,gif,ico,webp,svg}", to: "/dist/images/", context: "/src/"}
-    ], {})
+      {from: "src/logo.ico", to: ""},
+      {from: "src/images", to: "images"}
+    ])
   ],
   optimization: {
     minimizer: [

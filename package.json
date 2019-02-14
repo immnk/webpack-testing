@@ -7,7 +7,7 @@
     "lint": "eslint src/**/*.js --config .eslintrc.js ",
     "build:watch": "npm i && webpack --progress --color --watch --display-error-details",
     "serve": "lite-server -c=bs-config.json",
-    "build:prod": "set NODE_ENV=production&& webpack --mode=production --verbose",
+    "build:prod": "webpack --mode=production --verbose",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
     "test": "npm run lint && nyc --reporter=html --reporter=text mocha",
     "coverage": "NODE_ENV=test nyc report --reporter=text-lcov | coveralls"

@@ -7,7 +7,7 @@
     "lint": "eslint src/**/*.js --config .eslintrc.js ",
     "build:watch": "npm i && webpack --progress --color --watch --display-error-details",
     "serve": "lite-server -c=bs-config.json",
-    "build:prod": "webpack --mode=production",
+    "build:prod": "webpack --mode=production --verbose",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
     "test": "npm run lint && nyc --reporter=html --reporter=text mocha",
     "coverage": "NODE_ENV=test nyc report --reporter=text-lcov | coveralls"
@@ -30,9 +30,11 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "concurrently": "^4.1.0",
+    "copy-webpack-plugin": "^4.6.0",
     "coveralls": "^3.0.2",
     "css-loader": "^2.1.0",
     "eslint": "^5.12.0",
+    "file-loader": "^3.0.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "jsdom": "^13.1.0",
@@ -47,6 +49,7 @@
     "require-hooks": "0.0.6",
     "sass-loader": "^7.1.0",
     "terser-webpack-plugin": "^1.2.2",
+    "url-loader": "^1.1.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }

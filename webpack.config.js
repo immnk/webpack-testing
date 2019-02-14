@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: debug ? "development" : "production",
@@ -22,10 +23,22 @@ module.exports = {
   module: {
     rules: [{
       test: /\.scss$/,
-      use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
+      use: [{
+        loader: MiniCssExtractPlugin.loader,
+        options: {
+          publicPath: "../"
+        }
+      }, "css-loader", "sass-loader"]
     }, {
       test: /\.html$/,
       loader: "html-loader"
+    }, {
+      test: /\.(png|jpg|gif)$/i,
+      use: [
+        {
+          loader: "url-loader",
+        }
+      ]
     }]
   },
   plugins: [
@@ -35,6 +48,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html"
     }),
+    new CopyWebpackPlugin([
+      {from: "src/logo.ico", to: ""},
+      {from: "src/images", to: "images"}
+    ])
   ],
   optimization: {
     minimizer: [

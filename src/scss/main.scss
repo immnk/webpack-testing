@@ -13,7 +13,7 @@
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   overflow-y: auto;
   background-image: -webkit-linear-gradient(bottom, $background-start 0%, $background-end 100%);
@@ -27,6 +27,28 @@
   padding: 1.2rem;
   text-align: center;
 
+  .logo {
+    background: $background-start url("../images/logo.png") no-repeat center;
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  #title {
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 3rem;
+    }
+  
+    @media only screen and (max-width: 468px) {
+      font-size: 2.5rem;
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     margin: 2.4rem auto;
     padding: 0;
@@ -35,17 +57,5 @@
   @media only screen and (max-width: 468px) {
     margin: 1.2rem auto;
     padding: 0;
-  }
-}
-
-#title {
-  font-size: 4rem;
-  margin-bottom: 2.4rem;
-  @media only screen and (max-width: 768px) {
-    font-size: 3rem;
-  }
-
-  @media only screen and (max-width: 468px) {
-    font-size: 2.5rem;
   }
 }

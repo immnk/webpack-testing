@@ -23,10 +23,22 @@ module.exports = {
   module: {
     rules: [{
       test: /\.scss$/,
-      use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
+      use: [{
+        loader: MiniCssExtractPlugin.loader,
+        options: {
+          publicPath: "../"
+        }
+      }, "css-loader", "sass-loader"]
     }, {
       test: /\.html$/,
       loader: "html-loader"
+    }, {
+      test: /\.(png|jpg|gif)$/i,
+      use: [
+        {
+          loader: "url-loader",
+        }
+      ]
     }]
   },
   plugins: [

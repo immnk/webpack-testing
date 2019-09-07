@@ -48,7 +48,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "require-hooks": "0.0.6",
     "sass-loader": "^7.1.0",
-    "terser-webpack-plugin": "^1.2.2",
+    "terser-webpack-plugin": "^2.0.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"

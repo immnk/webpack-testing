@@ -44,7 +44,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "mocha": "^6.0.0",
     "node-sass": "^4.11.0",
-    "nyc": "^13.1.0",
+    "nyc": "^15.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "require-hooks": "0.0.6",
     "sass-loader": "^7.1.0",
